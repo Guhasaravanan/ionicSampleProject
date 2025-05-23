@@ -1,17 +1,37 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-grid>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Welcome Back</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Here is your dashboard.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card color="primary">
+          <ion-card-header>
+            <ion-card-title>Tasks</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>5 Pending</ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card color="secondary">
+          <ion-card-header>
+            <ion-card-title>Messages</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>2 New</ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>
