@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class Tab3Page {
-
+  onClickButton() {
+    console.log('clicked the button');
+  }
+  onTextClick() {
+    console.log('clicked the p tag');
+  }
   constructor() {}
-
 }
